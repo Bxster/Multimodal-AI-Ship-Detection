@@ -1,0 +1,5 @@
+train: /app/datasets/HRSID_YOLO_png_640px/images/train  # Percorso alle immagini di training
+val: /app/datasets/HRSID_YOLO_png_640px/images/val     # Percorso alle immagini di validazione
+test: /app/datasets/HRSID_YOLO_png_640px/images/test   # Percorso alle immagini di test (opzionale)
+nc: 1                               # Numero di classi
+names: ['ship']               # Nomi delle classi
