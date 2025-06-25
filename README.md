@@ -27,12 +27,20 @@ Il progetto affronta la sfida della sorveglianza marittima integrando immagini s
 
 ```bash
 .
-├── configs/              # File di configurazione YOLO (hyp, data, model)
-├── data/                 # Script per il preprocessing, chip extraction
-├── models/               # Codice per YOLOv10slight e YOLOv12
-├── notebooks/            # Notebook esplorativi (visualizzazioni, evaluation)
-├── results/              # Risultati finali (confusion matrix, curve, immagini)
-├── Figure/               # Immagini per slide/report
-├── utils/                # Funzioni ausiliarie
-├── requirements.txt      # Dipendenze Python
-└── README.md             # Questo file
+├── yolov10/
+│   ├── configs/                  # Configurazioni del modello YOLOv10 (es. YOLOv10sLight)
+│   ├── dataset_configs/          # Configurazioni dei dataset (HRSID, D3 Grey)
+│   └── train_yolov10.py          # Script di training per YOLOv10
+│
+├── yolov11/
+│   ├── configs/                  # Configurazioni per YOLOv11 (YOLOv11s, YOLOv11m)
+│   ├── dataset_configs/          # Configurazioni dei dataset (HRSID, D3 Grey)
+│   └── train_yolov11.py          # Script di training per YOLOv11
+│
+├── yolov12/
+│   ├── configs/                  # Configurazioni per YOLOv12 (YOLOv12s, YOLOv12m)
+│   ├── dataset_configs/          # Configurazioni dei dataset (HRSID, D3 Grey)
+│   ├── train_yolov12.py          # Script di training per YOLOv12
+│   └── yolo12s.pt                # Modello pre-addestrato YOLOv12s
+│
+└── README.md                     # Documentazione del progetto
