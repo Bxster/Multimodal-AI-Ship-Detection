@@ -1,4 +1,4 @@
-# Multimodal Ship Detection AI
+# Multimodal AI Ship Detection
 
 > Sviluppo di un sistema AI multimodale per l'identificazione delle imbarcazioni con immagini satellitari  
 > _Corso: Computer Vision & Deep Learning – Università Politecnica delle Marche_
