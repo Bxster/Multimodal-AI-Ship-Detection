@@ -1,0 +1,5 @@
+train: /app/datasets/D3_Grey/images/train  # Percorso alle immagini di training
+val: /app/datasets/D3_Grey/images/val     # Percorso alle immagini di validazione
+test: /app/datasets/D3_Grey/images/test   # Percorso alle immagini di test (opzionale)
+nc: 1                               # Numero di classi
+names: ['ship']               # Nomi delle classi
