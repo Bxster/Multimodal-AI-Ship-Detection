@@ -17,7 +17,7 @@ Il progetto affronta la sfida della sorveglianza marittima integrando immagini s
 
 ### 🎯 Obiettivi
 
-- **Replicare** i risultati di Galdelli et al. (2025) con YOLOv10slight sul dataset HS3-S2.
+- **Replicare** i risultati di [Galdelli et al. (2025)](https://www.sciencedirect.com/science/article/pii/S0167865525000649), con YOLOv10slight sul dataset HS3-S2.
 - **Estendere** l'analisi usando YOLOv12 su input monocanale.
 - **Ottimizzare** la pipeline per incrementare accuratezza ed efficienza del rilevamento.
 
