@@ -21,6 +21,29 @@ Il progetto affronta la sfida della sorveglianza marittima integrando immagini s
 - **Estendere** l'analisi usando YOLOv11 e YOLOv12 su input monocanale.
 - **Ottimizzare** la pipeline per incrementare accuratezza ed efficienza del rilevamento, introducendo un modello Light della YOLOv12s.
 
+### 📦 Dataset
+
+Il dataset **HS3-S2** è costruito a partire da diverse fonti open source:
+
+- [**SSDDCB**](https://github.com/CAESAR-Radi/SAR-Ship-Dataset)  
+  *SAR Ship Detection Dataset with Complex Backgrounds*
+
+- [**SSDD**](https://drive.google.com/file/d/1grDw3zbGjQKYPjOxv9-h4WSUctoUvu1O/view)  
+  *SAR Ship Detection Dataset*
+
+- [**HRSID**](https://github.com/chaozhong2010/HRSID)  
+  *High-Resolution SAR Images Dataset for ship detection*
+
+- [**S2_DETECTION**](https://universe.roboflow.com/sentinel2/sentinel-2-ship_detection)  
+  *Sentinel-2 based ship detection (Roboflow Universe)*
+
+- [**S2_FC**](https://huggingface.co/mayrajeo/marine-vessel-detection-yolov8)  
+  *Marine vessel detection from Sentinel-2 images (HuggingFace)*
+
+- [**SDAI**](https://www.kaggle.com/datasets/andrewmvd/ship-detection)  
+  *Ship Detection in Optical Imagery (Kaggle)*
+
+
 ---
 
 ## 🗂️ Struttura della Repository
